@@ -1,5 +1,16 @@
 {
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A project using Express and live-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "live-server --port=8100"
+  },
   "dependencies": {
-    "express": "^4.21.1"
-  }
+    "express": "^4.21.1",
+    "live-server": "^1.2.2"
+  },
+  "author": "superninjaX2",
+  "license": "MIT"
 }
